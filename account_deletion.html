@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion - SEVEN | سبعة</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #FAF9F6 0%, #F5F5F5 100%);
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #9B7A53;
+        }
+        .logo {
+            background: linear-gradient(135deg, #C8AD96, #9B7A53);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 2.5em;
+            font-weight: 800;
+            margin-bottom: 10px;
+        }
+        h1 {
+            color: #9B7A53;
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #9B7A53;
+            font-size: 1.4em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #C8AD96;
+            padding-left: 15px;
+        }
+        p, li {
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+        ul {
+            padding-left: 25px;
+        }
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            color: #856404;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #f39c12;
+        }
+        .info-box {
+            background: linear-gradient(135deg, #C8AD96, #9B7A53);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .steps-container {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #9B7A53;
+            margin: 20px 0;
+        }
+        .step {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 3px solid #C8AD96;
+        }
+        .step-number {
+            background: #9B7A53;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .email-template {
+            background: #e9ecef;
+            padding: 20px;
+            border-radius: 8px;
+            font-family: monospace;
+            margin: 15px 0;
+            border: 1px solid #dee2e6;
+        }
+        .contact-info {
+            background: #FAF9F6;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 4px solid #9B7A53;
+            margin-top: 30px;
+        }
+        .timeline {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #C8AD96;
+            margin: 20px 0;
+        }
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+        }
+        .timeline-dot {
+            width: 12px;
+            height: 12px;
+            background: #9B7A53;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .btn-email {
+            background: linear-gradient(135deg, #C8AD96, #9B7A53);
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            margin: 20px 0;
+            transition: transform 0.2s;
+        }
+        .btn-email:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(155, 122, 83, 0.3);
+        }
+        .last-updated {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">SEVEN | سبعة</div>
+            <h1>Account Deletion Request</h1>
+            <p>We're sorry to see you go</p>
+        </div>
+
+        <div class="warning-box">
+            <strong>⚠️ Important Warning:</strong> Account deletion is permanent and cannot be undone. All your data, order history, and medical information will be permanently lost.
+        </div>
+
+        <h2>📋 Important Information Before Deletion</h2>
+        <ul>
+            <li><strong>Data to be deleted:</strong> All personal information, order history, medical information, and app preferences</li>
+            <li><strong>Pending orders:</strong> All pending orders must be completed or cancelled before deletion</li>
+        </ul>
+
+        <div class="info-box">
+            <h3>⏰ Account Deletion Timeline</h3>
+            <p>After submitting your deletion request, your account will be deleted within <strong>15-30 business days</strong> from the request date.</p>
+        </div>
+
+        <div class="timeline">
+            <h3>Deletion Process Stages:</h3>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <span><strong>Day 1:</strong> Submit deletion request via email</span>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <span><strong>Day 1-3:</strong> Review request and verify no pending orders</span>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <span><strong>Day 15-30:</strong> Permanently delete account from all systems</span>
+            </div>
+        </div>
+
+        <h2>📧 How to Request Account Deletion</h2>
+        <div class="steps-container">
+            <div class="step">
+                <span class="step-number">1</span>
+                <strong>Send Email:</strong> Send an email to our support team using the template below
+            </div>
+            <div class="step">
+                <span class="step-number">2</span>
+                <strong>Confirmation:</strong> You will receive a confirmation message within 24-48 hours
+            </div>
+            <div class="step">
+                <span class="step-number">3</span>
+                <strong>Review:</strong> We will review your request and verify no pending orders
+            </div>
+            <div class="step">
+                <span class="step-number">4</span>
+                <strong>Deletion:</strong> Your account will be permanently deleted within 15-30 business days
+            </div>
+        </div>
+
+        <h2>📝 Required Email Template</h2>
+        <p>Copy the following text and send it to the specified email address:</p>
+        
+        <div class="email-template">
+            <strong>To:</strong> support@se-7en.com<br>
+            <strong>Subject:</strong> Account Deletion Request<br><br>
+            
+            <strong>Content:</strong><br>
+            Dear SEVEN Support Team,<br><br>
+            
+            I would like to permanently delete my account from the SEVEN | سبعة application.<br><br>
+            
+            <strong>Account Information:</strong><br>
+            - Registered Email: [Enter your email here]<br>
+            - Phone Number: [Enter your phone number here]<br>
+            - Full Name: [Enter your full name here]<br><br>
+            
+            I confirm that I understand this process is permanent and cannot be reversed, and that all my data will be permanently deleted.<br><br>
+            
+            Thank you<br>
+            [Your Name]
+        </div>
+
+        <a href="mailto:support@se-7en.com?subject=Account Deletion Request&body=Dear SEVEN Support Team,%0A%0AI would like to permanently delete my account from the SEVEN | سبعة application.%0A%0AAccount Information:%0A- Registered Email: [Enter your email here]%0A- Phone Number: [Enter your phone number here]%0A- Full Name: [Enter your full name here]%0A%0AI confirm that I understand this process is permanent and cannot be reversed, and that all my data will be permanently deleted.%0A%0AThank you%0A[Your Name]" class="btn-email">
+            📧 Send Deletion Request Now
+        </a>
+
+        <h2>🔒 Privacy and Security</h2>
+        <ul>
+            <li>All your data will be deleted from our main and backup servers</li>
+            <li>Some anonymized data may remain for statistical purposes only</li>
+            <li>Financial transaction records will be retained as required by local laws</li>
+            <li>Your information will not be shared with any third parties during the deletion process</li>
+        </ul>
+
+        <h2>💡 Other Alternatives</h2>
+        <p>Before permanently deleting your account, you may consider these alternatives:</p>
+        <ul>
+            <li><strong>Temporary Suspension:</strong> Temporarily disable your account instead of deletion</li>
+            <li><strong>Password Change:</strong> If the reason is security-related</li>
+            <li><strong>Unsubscribe:</strong> Stop notifications and marketing messages</li>
+            <li><strong>Contact Support:</strong> Resolve any issues you're experiencing with the app</li>
+        </ul>
+
+        <div class="contact-info">
+            <h2>📞 Contact Information</h2>
+            <p>If you have any questions about the account deletion process:</p>
+            <ul>
+                <li><strong>Email:</strong> support@se-7en.com</li>
+                <li><strong>Phone:</strong> +20 102 836 4348</li>
+                <li><strong>Working Hours:</strong> Sunday - Thursday, 9:00 AM - 6:00 PM</li>
+                <li><strong>Website:</strong> https://se-7en.com</li>
+            </ul>
+        </div>
+
+        <div class="last-updated">
+            <p>This page was last updated on January 3, 2025</p>
+        </div>
+    </div>
+</body>
+</html>
